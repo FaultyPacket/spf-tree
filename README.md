@@ -1,5 +1,10 @@
 # spf-tree
 
+[![ci](https://github.com/FaultyPacket/spf-tree/actions/workflows/ci.yml/badge.svg)](https://github.com/FaultyPacket/spf-tree/actions/workflows/ci.yml)
+[![licence: MIT](https://img.shields.io/badge/licence-MIT-blue)](LICENSE)
+
+> Part of FaultyPacket™'s free tools. For the full mail/DNS audit (DMARC RFC 9989, DKIM, MTA-STS, DNSSEC, BIMI, Google/Yahoo/Outlook verdicts, GitHub Action, MCP server) see [faultypacket-audit](https://github.com/FaultyPacket/faultypacket-audit), which includes this SPF tree check.
+
 Expand an SPF record recursively and count DNS lookups across the whole tree, as RFC 7208 §4.6.4 defines them. Single domain or batch.
 
 Requires Python 3.11+ and dnspython. Runs locally; nothing is uploaded.

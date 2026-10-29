@@ -1,0 +1,7 @@
+# spf-tree
+
+> Free MIT-licensed Python CLI by FaultyPacket™: expands an SPF record recursively and counts DNS lookups (limit 10) and void lookups (limit 2) per RFC 7208 4.6.4. Single domain or batch, JSON/CSV output.
+
+- [README](https://github.com/FaultyPacket/spf-tree/blob/main/README.md)
+- [Full audit incl. SPF, DMARC, MCP server: faultypacket-audit](https://github.com/FaultyPacket/faultypacket-audit)
+- [FaultyPacket](https://faultypacket.co.uk)
