@@ -226,7 +226,7 @@ def test_doh_path():
     ("https://user:pw@www.Example.com:8443/path?q=1#f", "www.example.com"),
     ("http://example.com", "example.com"), ("postmaster@Example.org", "example.org"),
     ("mailto:a@b.example.net", "b.example.net"), ("example.com:25", "example.com"),
-    ("example.com/foo", "example.com"), ("bÃ¼cher.example", "xn--bcher-kva.example"),
+    ("example.com/foo", "example.com"), ("bücher.example", "xn--bcher-kva.example"),
     ("_dmarc.example.com", "_dmarc.example.com"),
 ])
 def test_extract_domain(raw, exp):
